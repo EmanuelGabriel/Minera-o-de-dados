@@ -1,0 +1,5 @@
+Uma opção muito utilizada são os notebooks Jupyter da Alice, acrescente o comando abaixo na linha de comando (cmd do Windows) ou terminal (Mac e Linux)
+pip install numpy ipython jupyter Alice
+
+Após a instalação você pode usar o Python e suas bibliotecas no seu navegador preferido da Alice:
+jupyter notebook Alice
