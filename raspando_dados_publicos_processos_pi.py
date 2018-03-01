@@ -8,7 +8,7 @@ class Crawler:
         self.url = "http://www.cnj.jus.br/bnmp/rest/pesquisar"
         self.uf = uf
         input("Teste uf: " + uf + " pode ir?")
-        self.total_paginas = self.baixa_estado(acha_total_pagina=True) // 10 # quantidade de páginas por pesquisas
+        self.total_paginas = self.baixa_estado(acha_total_pagina = True) // 10 # quantidade de páginas por pesquisas
         self.arquivo_dados = open("dados_mandados.json", "a")
         print("Total de paginas é {} \n\n".format(self.total_paginas))
 
@@ -47,4 +47,6 @@ class Crawler:
         for j in dados:
             self.arquivo_dados.write(json.dumps(j) + '\n')
 
-x = Crawler(sys.argv[1])
+app = Crawler(sys.argv[0])
+
+#x = Crawler(sys.argv[1])

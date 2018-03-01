@@ -35,6 +35,7 @@ uf = 'PI'
 
 pag_ini = 1  # valor inicial 1, se o servidor te derrubar, retome mudando este número
 
+
 if pag_ini == 1:
     f = open(f'cnj_situacao_presos_{uf}.csv', 'a')
     w = csv.writer(f)
@@ -115,4 +116,7 @@ for k in range(pag_ini, n_pag + 1):
         w.writerow(row)
     f.close()
     headers['Content-Length'] = '213'
+
+def buscar():
+    print(open(f, "r").read())
 

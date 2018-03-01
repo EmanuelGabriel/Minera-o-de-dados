@@ -1,0 +1,9 @@
+Situação com pyton, usando Open em Pyton
+Manga com leiteOlaarquivoessasituação
+Nova linha
+Nova linha
+Nesta situação os dados estão sendo adicionados com o APPEND
+Nova linha
+Nesta situação os dados estão sendo adicionados com o APPEND
+Nesta situação os dados estão sendo adicionados com o APPEND
+Nesta situação os dados estão sendo adicionados com o APPEND
